@@ -84,17 +84,53 @@ h2{
    
 }
 
-@media (max-width: 700px) {
+/*---------------- footer
+-------------- */
+.logo-pic{
+   
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.logo-pic img{
+    width: 400px;
+    height: 150px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px; 
+}
+a{
+    margin-left: 10px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+@media (max-width: 1000px) {
    
     .top-part{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .footballers{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
     }
-
+ 
+ 
 }
 
 
