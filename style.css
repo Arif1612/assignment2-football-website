@@ -7,38 +7,48 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color: blue;
+    
    
 }
 
 h1{
-    font-size: 64px;
+    font-size: 60px;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 75px;
     color: white;
-    margin-left: 156px;
+    margin-left: 50px;
 }
 
 .btn{
     width: 168px;
     height: 44px;
-    margin-left: 156px;
+    margin-left: 50px;
     background-color: #E02C6D;;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-bottom: 239px;
+    margin-bottom: 10px;
 }
 .btn1{
     text-decoration: none;
     color: white;
     margin-right: 10px;
+   
+}
+
+.left-side{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .right-side{
     margin-bottom: 56px;
-    margin-top: 153px;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+   
    
 }
 .right-side img{
@@ -58,6 +68,7 @@ h1{
     width: 300px;
     height: 256px;
     border-radius: 25px;
+    padding-left: 50px;
 }
 h2{
     font-size: 28px;
@@ -66,7 +77,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: white;
-    margin-left: 180px;
+    padding-left: 160px;
     grid-row-gap: 27px;
     grid-column-gap: 30px;
     margin-top: 70px;
@@ -115,13 +126,16 @@ a{
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
    
     .top-part{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        
     }
     .footballers{
         display: flex;
